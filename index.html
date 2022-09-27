@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Accessibility</title>
 </head>
 <body>
-    
+    <header id="header">
+        <h1>Sign Up!</h1>
+    </header>
+    <main>
+        <div class="form" id="form" role="form">
+            <form>
+                <label for="name">Name*</label><br>
+                <input type="text" name="name" id="name" required placeholder="Enter your name" aria-describedby="name-help"><br>
+                <p id="name-help">*This is a required field</p>
+                <label for="email">E-mail*</label><br>
+                <input type="text" name="email" id="email" required placeholder="Enter a valid e-mail address" aria-describedby="email-help"><br>
+                <p id="email-help">*This is a required field</p>
+                <label for="phone">Phone Number</label><br>
+                <input type="text" name="phone" id="phone" placeholder="Enter your phone number"><br>
+                <button type="submit">SUBMIT</button>
+            </form>
+        </div>
+    </main>
 </body>
 </html>

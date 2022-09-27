@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    background-color: rgb(255, 250, 206);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+}
+
+label {
+    font-weight: 500;
+    font-size: larger;
+    margin-top: 30px;
+}
+
+input {
+    width: 200px;
+    height: 20px;
+}
+
+/* This is for making the placeholder text disappear when you focus on it */
+input:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+input:focus::-moz-placeholder {
+   opacity: 0;
+}
+ 
+input:focus:-ms-input-placeholder {
+    opacity: 0;
+}
+ 
+input:focus:-moz-placeholder {
+   opacity: 0;
+}
+
+button {
+    background-color: rgb(52, 54, 109);
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+button:focus {
+   background-color: rgb(11, 84, 219);
+}
+
+p {
+    font-size: small;
+    color: rgb(101, 5, 5);
+    margin-top: 0;
+    margin-bottom: 10px;
+}
